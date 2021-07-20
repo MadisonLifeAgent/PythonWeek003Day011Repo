@@ -11,7 +11,7 @@
 #region - class
 class Pyramid:
     def __init__(self):
-        self.five_stars = "*****"
+        self.five_stars = "* * * * *"
         self.stars_list = []
         self.updated_stars = ""
 
@@ -19,16 +19,23 @@ class Pyramid:
 
     #method to reduce number of stars
     def reduce_stars(self):
-        self.stars_list [:] = str(self.five_stars)
+        self.
+
 
     #method to print pyramid
     def show_pyramid(self):
-        
+        counter = 0
+
+        while counter < len(self.five_stars):
+            print(self.five_stars)
+            counter += 1
+            self.reduce_stars()
 
 
 #reduce the number of stars
 star_pyramid = Pyramid()
-star_pyramid.reduce_stars()
+star_pyramid.show_pyramid()
 
-print(star_pyramid.stars_list)
+
+print(star_pyramid.five_stars)
 
