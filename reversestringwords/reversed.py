@@ -45,6 +45,10 @@ class Phrase:
             else:
                 self.new_phrase += x + " "
 
+#endregion - Class and Methods
+
+#region - instantiat and print
+
 #instantiate methods
 user_phrase = Phrase()
 
@@ -65,3 +69,5 @@ print(user_phrase.original_phrase)
 print(user_phrase.words_list)
 print(user_phrase.reverse_words_list)
 print(user_phrase.new_phrase)
+
+#endregion 
